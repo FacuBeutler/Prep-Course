@@ -172,16 +172,20 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
- return [0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60];
+  let tabla = [];
+  for (let i = 0; i < 11; i++){
+    tabla[i] = i * 6;
+  }
+  return tabla;
 } 
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  if (("" + numero).length === 3){
+  if (numero.toString().length === 3) {
     return true;
-  } return false;
-} 
+  } else return false;
+}
 
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
