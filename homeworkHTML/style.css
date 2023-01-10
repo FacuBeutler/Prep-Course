@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    padding: auto;
+    margin: auto;
+}
+
+
+
+/* HEAD  */
+.firstDiv {
+    display: flex;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    padding: 30px;
+    transition: .5s;
+}
+.firstDiv:hover {
+    background-color: rgb(0, 0, 0,0.8);
+    transition: .5s;
+    border-radius: 100px;
+}
+.firstDiv a {
+    text-decoration: none;
+    color: white;
+}
+.firstDiv a:visited {
+    text-decoration: none;
+}
+.firstDiv span {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.554);
+}
+
+
+
+/* ARTICLE 1 */
+#articleId p {
+    display: flex;
+    justify-content: center;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 120px;
+    color: rgb(230, 140, 140);
+    text-shadow: 2px -3px 0 
+            rgba(255, 255, 255, 1);
+}
+#articleId h5 {
+    display: flex;
+    justify-content: center;
+    font: 120px bold, 'East Sea Dokdo', cursive;
+    color: rgb(255, 207, 136);
+}
+#articleId aside {
+    display: flex;
+    justify-content: center;
+    font: 120px bold, 'East Sea Dokdo', cursive;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+#imgDay {
+    height: 600px;
+    background-image: url('http://www.lafondadeltio.com.ar/images/demo/slides/la-fonda-del-tio-dia.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#imgDay a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    color: rgb(0, 0, 0);
+    font: 120px bold, 'East Sea Dokdo', cursive;
+    font-size: 85px;
+    background-color:rgb(255, 255, 255, 0.6);
+    border-radius: 35px;
+    border: rgb(255, 255, 255) dashed;
+    transition: .5s;
+}
+#imgDay a:hover {
+    display: flex;
+    width: 90%;
+    color: rgb(255, 255, 255);
+    font-size: 85px;
+    background-color:rgba(0, 0, 0, 1);
+    transition: .5s;
+}
+
+
+
+
+/* GALERY */
+#thirdDiv {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(220, 80,20, 0.3);
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 500px;
+    background-image: url("http://www.lafondadeltio.com.ar/images/demo/slides/la-fonda-del-tio-noche.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    border-top: 15px solid;
+}
+#thirdDiv img {
+    border: 10px solid;
+    border-radius: 100%;
+    transition: 1.5s;
+}
+#thirdDiv img:hover {
+    width: 450px;
+    transition: 1.5s;
+}
